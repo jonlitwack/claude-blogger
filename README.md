@@ -2,7 +2,7 @@
 
 A mobile-first publishing tool that lets you paste Markdown from AI conversations and publish to your GitHub-powered blog. No CMS, no CLI, no build step.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjonlitwack%2FclaudeBlogger&env=NEXTAUTH_SECRET,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET&envDescription=GitHub%20OAuth%20credentials%20and%20auth%20secret.%20See%20README%20for%20setup%20instructions.&stores=%5B%7B%22type%22%3A%22kv%22%7D%5D)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjonlitwack%2Fclaude-blogger&env=NEXTAUTH_SECRET,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET&envDescription=GitHub%20OAuth%20credentials%20and%20auth%20secret.%20See%20README%20for%20setup%20instructions.&stores=%5B%7B%22type%22%3A%22kv%22%7D%5D)
 
 ## Setup
 

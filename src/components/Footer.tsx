@@ -14,7 +14,7 @@ export default async function Footer() {
           <div className="footer-links">
             Powered by{" "}
             <a
-              href="https://github.com/jonlitwack/claudeBlogger"
+              href="https://github.com/jonlitwack/claude-blogger"
               target="_blank"
               rel="noopener noreferrer"
             >
