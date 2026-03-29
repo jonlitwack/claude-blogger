@@ -50,7 +50,10 @@ export default function SetupPage() {
     if (step === "repo" && status === "authenticated") {
       fetch("/api/repos")
         .then((r) => r.json())
-        .then(setRepos)
+        .then((data) => {
+          if (Array.isArray(data)) setRepos(data);
+          else setError("Failed to load repositories");
+        })
         .catch(() => setError("Failed to load repositories"));
     }
   }, [step, status]);
